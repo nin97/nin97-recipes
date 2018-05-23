@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release of Tableau Reader.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.download.TableauReader</string>
+	<string>com.github.nin97.download.TableauReader</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

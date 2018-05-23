@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release of Tableau Desktop and installs it.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.install.TableauDesktop</string>
+	<string>com.github.nin97.install.TableauDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.pkg.TableauDesktop</string>
+	<string>com.github.nin97.pkg.TableauDesktop</string>
 	<key>Process</key>
 	<array>
 		<dict>
