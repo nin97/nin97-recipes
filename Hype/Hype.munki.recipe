@@ -28,7 +28,7 @@
 			<string>Hype</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key><category</key>
+			<key>category</key>
 			<string>Design</string>
 			<key>unattended_install</key>
 			<true/>
