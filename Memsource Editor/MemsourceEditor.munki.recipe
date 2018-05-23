@@ -63,6 +63,7 @@
 				<key>target</key>
 				<string>%RECIPE_CACHE_DIR%/Memosource Editor.app</string>
       </dict>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
