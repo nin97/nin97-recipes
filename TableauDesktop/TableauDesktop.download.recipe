@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the current release of Tableau Reader.</string>
+	<string>Downloads the current release of Tableau Desktop.</string>
 	<key>Identifier</key>
-	<string>com.github.nin97.download.TableauReader</string>
+	<string>com.github.nin97.download.TableauDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://www.tableau.com/downloads/reader/mac</string>
+		<string>https://www.tableau.com/downloads/desktop/mac</string>
 		<key>NAME</key>
-		<string>Tableau Reader</string>
+		<string>Tableau Desktop</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.1</string>
@@ -42,7 +42,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%pathname%/Tableau Reader.pkg</string>
+				<string>%pathname%/Tableau Desktop.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
@@ -53,7 +53,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpacked</string>
 				<key>flat_pkg_path</key>
-				<string>%pathname%/Tableau Reader.pkg</string>
+				<string>%pathname%/Tableau Desktop.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
@@ -75,7 +75,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>pattern</key>
-				<string>%RECIPE_CACHE_DIR%/expanded/Tableau Reader*.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/expanded/Tableau Desktop*.app/Contents/Info.plist</string>
 			</dict>
 			<key>Processor</key>
 			<string>FileFinder</string>
