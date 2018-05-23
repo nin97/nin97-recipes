@@ -23,9 +23,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Memsource is a complete translation platform that includes translation memory, integrated machine and human translation, terminology management, and a web-based as well as a desktop translator’s editor.</string>
 			<key>developer</key>
-			<string></string>
+			<string>Memsource A.S.</string>
 			<key>display_name</key>
 			<string>Memsource Editor</string>
 			<key>name</key>
